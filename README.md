@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Use  git clone https://github.com/chavarahul/ClubWeb.git  in terminal to clone the code
 
-## Available Scripts
+# Directory
+use cd ClubWeb in terminal 
 
-In the project directory, you can run:
+
+# To run the project
+Use npm install
+after that use
+npm start
 
 ### `npm start`
 
