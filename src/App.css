@@ -107,7 +107,7 @@ width: 100%;
   box-shadow: 3px 4px 0px 3px #2a2f3f;
   background-color:#1b1e2a;
   height: 15vh;
-
+  width: 100%;
   transition: 1s;
 }
 
