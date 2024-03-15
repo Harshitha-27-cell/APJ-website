@@ -23,6 +23,9 @@ const Team = () => {
         </p>
       </div>
       <div className="TeamImages">
+      <div className="Team Heading">
+          <h3 className='mt'>Faculty Coordinator</h3>
+        </div>
         <div className="President Div">
           <div className="President iss Img">
             <img
@@ -35,9 +38,12 @@ const Team = () => {
               className="Overlay"
             >
               <h6>Head of APJ Club</h6>
-              <p>Ujwala</p>
+              <p>Mrs.B.Ujwala</p>
             </div>
           </div>
+        </div>
+        <div className="Team Heading">
+          <h3 className='mt'>President</h3>
         </div>
         <div className="President Div">
           <div className="President Img">
