@@ -1,5 +1,5 @@
 import React from 'react';
-import { EventDetails ,UpcomingEvent } from '../constants';
+import { EventDetails ,UpcomingEvent,EventsDetails } from '../constants';
 
 const EventCard = () => {
     return (
@@ -10,6 +10,19 @@ const EventCard = () => {
          
           {
             EventDetails.map((items)=>(
+                <div class="card" key={items.name}>
+                <img src={items.Img} alt=""/>
+                <div class="card__content">
+                    <p class="card__title">{items.name}</p>
+                    <p class="card__description">{items.content}</p>
+                </div>
+            </div>
+            ))
+          }
+        </div>
+        <div className="EventCon">
+        {
+            EventsDetails.map((items)=>(
                 <div class="card" key={items.name}>
                 <img src={items.Img} alt=""/>
                 <div class="card__content">

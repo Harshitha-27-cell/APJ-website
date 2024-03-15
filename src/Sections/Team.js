@@ -5,6 +5,7 @@ import { OTTeam } from '../constants';
 import { PlatformLeads } from '../constants';
 import { SMTeam } from '../constants';
 import { CATeam } from '../constants';
+import { OTJrTeam,PdJrTeam,CAJrTeam,SmJrTeam } from '../constants';
 const Team = () => {
   return (
     <section
@@ -161,6 +162,110 @@ const Team = () => {
                       <a href={Img.ilink}><i class="bi bi-instagram"></i></a>
                       <a href={Img.llink}><i class="bi bi-linkedin"></i></a>
                     </div>
+                </div>
+              </div>
+              
+            ))
+          }
+        </div>
+        <div className="Team Heading">
+        <h3>Junior Team</h3>
+      </div>
+      <div className="Team Heading mt">
+        <h3>Organising Team</h3>
+      </div>
+        <div className="ProblemD Div">
+          {
+            OTJrTeam.map((Img) => (
+              <div class="PBTeam Img" key={Img.Title}>
+                <img
+                  src={Img.Member}
+                  alt="TeamLead"
+                />
+                <div
+                  className="Overlay"
+                >
+                  <h6>{Img.Title}</h6>
+                  <p>{Img.Name}</p>
+                  <div className="LINK">
+                    <a href={Img.ilink}><i class="bi bi-instagram"></i></a>
+                    <a href={Img.llink}><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <div className="Team Heading">
+        <h3>Problem Designing Team</h3>
+      </div>
+        <div className="ProblemD Div">
+          {
+            PdJrTeam.map((Img) => (
+              <div class="PBTeam Img" key={Img.Title}>
+                <img
+                  src={Img.Member}
+                  alt="TeamLead"
+                />
+                <div
+                  className="Overlay"
+                >
+                  <h6>{Img.Title}</h6>
+                  <p>{Img.Name}</p>
+                  <div className="LINK">
+                    <a href={Img.ilink}><i class="bi bi-instagram"></i></a>
+                    <a href={Img.llink}><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <div className="Team Heading">
+        <h3>Community Approach Team</h3>
+      </div>
+        <div className="ProblemD Div">
+          {
+            CAJrTeam.map((Img) => (
+              <div class="PBTeam Img" key={Img.Title}>
+                <img
+                  src={Img.Member}
+                  alt="TeamLead"
+                />
+                <div
+                  className="Overlay"
+                >
+                  <h6>{Img.Title}</h6>
+                  <p>{Img.Name}</p>
+                  <div className="LINK">
+                    <a href={Img.ilink}><i class="bi bi-instagram"></i></a>
+                    <a href={Img.llink}><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+        <div className="Team Heading">
+        <h3>Social Media Team</h3>
+      </div>
+        <div className="ProblemD Div">
+          {
+            SmJrTeam.map((Img) => (
+              <div class="PBTeam Img" key={Img.Title}>
+                <img
+                  src={Img.Member}
+                  alt="TeamLead"
+                />
+                <div
+                  className="Overlay"
+                >
+                  <h6>{Img.Title}</h6>
+                  <p>{Img.Name}</p>
+                  <div className="LINK">
+                    <a href={Img.ilink}><i class="bi bi-instagram"></i></a>
+                    <a href={Img.llink}><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
             ))
