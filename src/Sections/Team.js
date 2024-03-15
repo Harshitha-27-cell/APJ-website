@@ -5,7 +5,8 @@ import { OTTeam } from '../constants';
 import { PlatformLeads } from '../constants';
 import { SMTeam } from '../constants';
 import { CATeam } from '../constants';
-import { OTJrTeam,PdJrTeam,CAJrTeam,SmJrTeam } from '../constants';
+import Head from '../assets/Head.jpg'
+import { OTJrTeam, PdJrTeam, CAJrTeam, SmJrTeam } from '../constants';
 const Team = () => {
   return (
     <section
@@ -22,6 +23,22 @@ const Team = () => {
         </p>
       </div>
       <div className="TeamImages">
+        <div className="President Div">
+          <div className="President iss Img">
+            <img
+              src={Head}
+              alt="Head"
+              width={280}
+              height={280}
+            />
+            <div
+              className="Overlay"
+            >
+              <h6>Head of APJ Club</h6>
+              <p>Ujwala</p>
+            </div>
+          </div>
+        </div>
         <div className="President Div">
           <div className="President Img">
             <img
@@ -43,8 +60,8 @@ const Team = () => {
           </div>
         </div>
         <div className="Team Heading">
-        <h3>Organizing Team</h3>
-      </div>
+          <h3>Organizing Team</h3>
+        </div>
         <div className="Organizing Div">
           {
             OTTeam.map((Img) => (
@@ -68,8 +85,8 @@ const Team = () => {
           }
         </div>
         <div className="Team Heading">
-        <h3>Community Approach Team</h3>
-      </div>
+          <h3>Community Approach Team</h3>
+        </div>
         <div className="CA Div">
           {
             CATeam.map((Img) => (
@@ -93,8 +110,8 @@ const Team = () => {
           }
         </div>
         <div className="Team Heading">
-        <h3>Platform Leads</h3>
-      </div>
+          <h3>Platform Leads</h3>
+        </div>
         <div className="Plaform Div">
           {
             PlatformLeads.map((Img) => (
@@ -118,8 +135,8 @@ const Team = () => {
           }
         </div>
         <div className="Team Heading">
-        <h3>Problem Designing Team</h3>
-      </div>
+          <h3>Problem Designing Team</h3>
+        </div>
         <div className="ProblemD Div">
           {
             PBTeam.map((Img) => (
@@ -143,8 +160,8 @@ const Team = () => {
           }
         </div>
         <div className="Team Heading">
-        <h3>Social Media Team</h3>
-      </div>
+          <h3>Social Media Team</h3>
+        </div>
         <div className="SM Div">
           {
             SMTeam.map((Img) => (
@@ -158,22 +175,22 @@ const Team = () => {
                 >
                   <h6>{Img.Title}</h6>
                   <p>{Img.Name}</p>
-                    <div className="LINK">
-                      <a href={Img.ilink}><i class="bi bi-instagram"></i></a>
-                      <a href={Img.llink}><i class="bi bi-linkedin"></i></a>
-                    </div>
+                  <div className="LINK">
+                    <a href={Img.ilink}><i class="bi bi-instagram"></i></a>
+                    <a href={Img.llink}><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
-              
+
             ))
           }
         </div>
         <div className="Team Heading">
-        <h3>Junior Team</h3>
-      </div>
-      <div className="Team Heading mt">
-        <h3>Organising Team</h3>
-      </div>
+          <h3>Junior Team</h3>
+        </div>
+        <div className="Team Heading mt">
+          <h3>Organising Team</h3>
+        </div>
         <div className="ProblemD Div">
           {
             OTJrTeam.map((Img) => (
@@ -197,8 +214,8 @@ const Team = () => {
           }
         </div>
         <div className="Team Heading">
-        <h3>Problem Designing Team</h3>
-      </div>
+          <h3>Problem Designing Team</h3>
+        </div>
         <div className="ProblemD Div">
           {
             PdJrTeam.map((Img) => (
@@ -222,8 +239,8 @@ const Team = () => {
           }
         </div>
         <div className="Team Heading">
-        <h3>Community Approach Team</h3>
-      </div>
+          <h3>Community Approach Team</h3>
+        </div>
         <div className="ProblemD Div">
           {
             CAJrTeam.map((Img) => (
@@ -247,8 +264,8 @@ const Team = () => {
           }
         </div>
         <div className="Team Heading">
-        <h3>Social Media Team</h3>
-      </div>
+          <h3>Social Media Team</h3>
+        </div>
         <div className="ProblemD Div">
           {
             SmJrTeam.map((Img) => (

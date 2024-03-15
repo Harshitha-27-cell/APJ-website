@@ -111,6 +111,9 @@ width: 100%;
   transition: 1s;
 }
 
+.iss > img{
+  border: 1px solid var(--main-color);
+}
 .LogoBox {
   min-height: inherit;
   width: 25%;
